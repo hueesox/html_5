@@ -111,3 +111,15 @@ blockquote
 @media only screen and (min-device-width:320px) and (max-device-width:480px){
   
 }
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  <!--Se ejecutará sólo cuando la resolución horizontal se encuentre entre 320 y 480 píxeles-->
+}
+
+@media only screen and (max-width:320px){
+  <!--Este mediaquerie se ejecutará sólo cuando la resolución horizontal sea menor de 320 píxeles-->
+}
+
+@media only screen and (min-width:980px){
+  <!--Este mediaquerie se ejecutará sólo cuando la resolución horizontal sea mayor de 980 píxeles-->
+}
